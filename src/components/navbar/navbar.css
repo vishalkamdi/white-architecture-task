@@ -1,0 +1,39 @@
+.navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: black;
+    opacity: 0.7;
+    position: sticky;
+    top: 0;
+    color: #dcdcdc;
+}
+
+.logo-section {
+    padding: 0.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    width: 50%;
+    color: #dcdcdc;
+    
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+
+    a {
+        text-decoration: none;
+        color: #dcdcdc;
+    }
+}
+
+.white-architecture-logo {
+    width: 150px;
+    height: 39px;
+}

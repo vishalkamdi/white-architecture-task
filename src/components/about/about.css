@@ -1,0 +1,41 @@
+.white-architecture-about-news-section {
+  background-color: black;
+  color: #c6c6c6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  div {
+    height: fit-content;
+  }
+}
+
+.centered-image {
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* height: 100vh; Full height */
+  object-fit: cover;
+  /* Crop sides */
+  object-position: center;
+  /* Keep center in focus */
+}
+
+.content-header {
+  color: #6b6b6c;
+}
+
+.about-content-wrapper {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30rem;
+  color: #616263;
+
+  a {
+    color: #616263;
+    border-bottom: 1px solid;
+    width: 30%;
+    padding-top: 35px;
+  }
+}

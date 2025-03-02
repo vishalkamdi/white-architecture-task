@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+.services-contact-section {
+    background-color: #eef3f7;
+    color: #2d2b2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 150px;
+
+    h1 {
+        font-size: 81px;
+    }
+
+    div {
+    height: fit-content;
+    }
+
+}
+
+
+.content-header {
+    position: relative;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+.content-header::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(200, 200, 200, 0.3); /* Light faded circle */
+    border-radius: 50%;
+}
+
+.content-header-wrapper {
+    padding-bottom: 30px;
+}
+
+a {
+    color: #6e7273 !important;
+    text-decoration: none;
+}
