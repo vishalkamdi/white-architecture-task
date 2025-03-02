@@ -2,12 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: black;
+    background-color: transparent;
     opacity: 0.7;
-    position: sticky;
     top: 0;
     color: #dcdcdc;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000; /* Ensures navbar is above everything */
 }
 
 .logo-section {
@@ -33,6 +37,15 @@
     }
 }
 
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
 .white-architecture-logo {
     width: 150px;
     height: 39px;
@@ -41,21 +54,18 @@
 /* MEDIA QUERIES FOR RESPONSIVE DESIGNS */
 /* Responsive styles */
 @media (max-width: 768px) {
-    .navbar-section {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
-    }
-
-    .logo-section {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
     .menu {
-        width: 100%;
-        justify-content: center;
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 }
 

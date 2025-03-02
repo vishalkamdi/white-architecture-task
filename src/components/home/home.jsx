@@ -6,13 +6,13 @@ const Home = () => {
     return (
         <section id="projects" className="home-section">
             {/* border line */}
-            <div>
+            <div className="home-border-line">
                 <div style={{
                     border: "solid 1px white",
                     width: "100%"
                 }} ></div>
             </div>
-            <div>
+            <div className="home-content-section">
                 <h2>
                     Sharp & Beautiful <br /> The Edge Building
                 </h2>

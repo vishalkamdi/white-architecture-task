@@ -9,13 +9,13 @@ import N5 from "../../assets/images/News/With Box/N5.png";
 
 const About = () => {
     return (
-        <div id="about">
-            <div className="content-header-wrapper" style={{ paddingLeft: "150px", paddingTop: "100px" }}>
+        <div id="about" className="about-section-wrapper">
+            <div className="content-header-wrapper" style={{ paddingLeft: "150px", paddingTop: "100px", width: "100%" }}>
                 <div className="content-header">About</div>
             </div>
 
             {/* image */}
-            <img src={aboutImage} className="centered-image" />
+            <img src={aboutImage} alt="about-image" className="centered-image" />
 
             {/* The Paragraph */}
             <div className="about-content-wrapper">
@@ -35,7 +35,7 @@ const About = () => {
 const NewsCard = (props) => {
     return (
         <div className="news-detail-card">
-            <img src={props.imagePath} alt="" srcset="" height={400} width={400} />
+            <img src={props.imagePath} alt="new-card-image" height={400} width={400} />
 
             <p>{props.description}</p>
             <p>{props.year}</p>
