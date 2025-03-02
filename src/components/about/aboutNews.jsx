@@ -15,7 +15,7 @@ const About = () => {
             </div>
 
             {/* image */}
-            <img src={aboutImage} alt="" srcset="" className="centered-image" />
+            <img src={aboutImage} className="centered-image" />
 
             {/* The Paragraph */}
             <div className="about-content-wrapper">
@@ -34,7 +34,7 @@ const About = () => {
 
 const NewsCard = (props) => {
     return (
-        <div style={{ display: "flex", flexDirection: "column", padding: "50px" }}>
+        <div className="news-detail-card">
             <img src={props.imagePath} alt="" srcset="" height={400} width={400} />
 
             <p>{props.description}</p>
@@ -73,7 +73,7 @@ const News = () => {
     ];
 
     return (
-        <div id="news" style={{ paddingLeft: "150px", paddingTop: "100px" }}>
+        <div id="news" className="news-container">
             <div className="content-header-wrapper">
                 <div className="content-header">News</div>
             </div>
