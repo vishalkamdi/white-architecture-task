@@ -3,7 +3,7 @@
 import React from 'react'
 
 import "./navbar.css"
-import logo from "../../assets/images/Logo & Others/logo.png"
+import logo from "../../assets/images/Logo & Others/Logo.png"
 
 const Navbar = () => {
     return (
