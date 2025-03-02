@@ -78,7 +78,7 @@ const News = () => {
                 <div className="content-header">News</div>
             </div>
 
-            <div style={{ display: "flex", overflowY: "auto" }}>
+            <div className="news-data-container">
                 {newsData.map((v) => NewsCard(v))}
             </div>
         </div>

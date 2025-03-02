@@ -39,3 +39,13 @@
     padding-top: 35px;
   }
 }
+
+
+.news-data-container {
+  display: flex;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
