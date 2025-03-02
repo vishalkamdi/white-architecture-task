@@ -60,7 +60,6 @@
   display: flex;
   flex-direction: column;
   padding: 50px;
-  min-width: 70%;
 }
 
 /* Responsive styles */
@@ -102,6 +101,7 @@
 
   .news-detail-card {
     padding: 30px;
+    min-width: 70%;
   }
 
   .news-detail-card img {
