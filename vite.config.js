@@ -8,9 +8,9 @@ const isProd = process.env.NODE_ENV === "production";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // base: isProd ? "/vishalkamdi" : "/",
+  base: isProd ? "/vishalkamdi" : "/",
   build: {
-    assetsDir: isProd ? "/vishalkamdi" : "/",
+    // assetsDir: isProd ? "/vishalkamdi" : "/",
   }
 
 })
