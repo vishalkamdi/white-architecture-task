@@ -1,4 +1,3 @@
-import Navbar from './components/navbar/navbar'
 import Home from './components/home/home'
 import homeImage from "./assets/images/Projects Images/p1.jpg"
 import AboutNews from './components/about/aboutNews'
