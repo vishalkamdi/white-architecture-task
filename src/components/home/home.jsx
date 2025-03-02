@@ -1,6 +1,6 @@
 
 import "./home.css";
-import homeImage from "../../assets/images/Projects Images/p1.jpg"; // Import the image
+import homeImage from "../../assets/images/Projects Images/P1.jpg"; // Import the image
 
 const Home = () => {
     return (
