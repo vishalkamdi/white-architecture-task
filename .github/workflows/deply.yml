@@ -69,7 +69,7 @@ jobs:
       - name: Build Vite Project
         run: ${{ steps.detect-package-manager.outputs.runner }} 
       
-            - name: Upload Build Artifacts
+      - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist  # Vite output directory
