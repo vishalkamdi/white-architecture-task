@@ -1,5 +1,5 @@
 import Home from './components/home/home'
-import homeImage from "./assets/images/Projects Images/p1.jpg"
+import homeImage from "./assets/images/Projects Images/P1.jpg"
 import AboutNews from './components/about/aboutNews'
 import Contact from './components/contacts/contact'
 import Services from './components/services/services'
