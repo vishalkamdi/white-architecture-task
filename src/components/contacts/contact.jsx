@@ -5,7 +5,7 @@ import cu3 from "../../assets/images/Contact Us Icons/CU3.png"
 import "./contact.css"
 
 const Contact = () => {
-    return <section style={{ paddingTop: "200px" }}>
+    return <section id="contacts" style={{ paddingTop: "200px" }}>
         <div className="content-header-wrapper">
             <div className="content-header">Contact Us</div>
         </div>

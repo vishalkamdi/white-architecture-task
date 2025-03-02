@@ -37,3 +37,35 @@
     width: 150px;
     height: 39px;
 }
+
+/* MEDIA QUERIES FOR RESPONSIVE DESIGNS */
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .logo-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-section {
+        padding: 0.5rem;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

@@ -14,13 +14,13 @@ const Navbar = () => {
             </div>
             <div className='menu'>
                 {[
-                    { title: "Project", path: "" },
-                    { title: "About", path: "" },
-                    { title: "News", path: "" },
-                    { title: "Services", path: "" },
-                    { title: "Contact", path: "" }
+                    { title: "Project", path: "#projects" },
+                    { title: "About", path: "#about" },
+                    { title: "News", path: "#news" },
+                    { title: "Services", path: "#services" },
+                    { title: "Contact", path: "#contacts" }
                 ].map((item, index) => {
-                    return (<a key={item.title.concat(index)} href="/">{item.title}</a>)
+                    return (<a key={item.title.concat(index)} href={item.path}>{item.title}</a>)
                 })}
             </div>
         </section>

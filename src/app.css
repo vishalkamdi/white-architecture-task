@@ -13,7 +13,7 @@
     }
 
     div {
-    height: fit-content;
+        height: fit-content;
     }
 
 }
@@ -44,4 +44,33 @@
 a {
     color: #6e7273 !important;
     text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-contact-section {
+        padding-left: 20px;
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .content-header {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .services-contact-section {
+        padding-left: 10px;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .content-header {
+        font-size: 12px;
+    }
 }

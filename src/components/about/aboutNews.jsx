@@ -9,7 +9,7 @@ import N5 from "../../assets/images/News/With Box/N5.png";
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <div className="content-header-wrapper" style={{ paddingLeft: "150px", paddingTop: "100px" }}>
                 <div className="content-header">About</div>
             </div>
@@ -73,7 +73,7 @@ const News = () => {
     ];
 
     return (
-        <div style={{ paddingLeft: "150px", paddingTop: "100px" }}>
+        <div id="news" style={{ paddingLeft: "150px", paddingTop: "100px" }}>
             <div className="content-header-wrapper">
                 <div className="content-header">News</div>
             </div>

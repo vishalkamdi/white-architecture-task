@@ -4,7 +4,7 @@ import homeImage from "../../assets/images/Projects Images/P1.jpg"; // Import th
 
 const Home = () => {
     return (
-        <section className="home-section">
+        <section id="projects" className="home-section">
             {/* border line */}
             <div>
                 <div style={{

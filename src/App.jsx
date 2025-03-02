@@ -14,9 +14,7 @@ function App() {
       <section style={{
         backgroundImage: `url(${homeImage})`,
         backgroundSize: "cover",
-        // backgroundColor: "black",
-        // opacity: 0.7,
-        
+
       }}>
         <Home />
       </section>
@@ -27,7 +25,7 @@ function App() {
         <Services />
         <Contact />
       </section>
-      
+
       <Footer />
     </>
   )

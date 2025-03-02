@@ -1,5 +1,5 @@
 const Services = () => {
-    return <section style={{paddingTop: "30px" }}>
+    return <section id="services" style={{paddingTop: "30px" }}>
         
         <div className="content-header-wrapper">
             <div className="content-header">Services</div>

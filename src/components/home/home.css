@@ -47,3 +47,58 @@
     top: -37px;
     right: -21px;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .home-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .home-section div {
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    .home-image img {
+        height: 300px;
+        width: 250px;
+    }
+
+    .corner-lines::before {
+        width: 150px;
+        top: -10px;
+        right: -20px;
+    }
+
+    .corner-lines::after {
+        height: 70px;
+        top: -20px;
+        right: -10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-section {
+        padding: 0.5rem;
+    }
+
+    .home-image img {
+        height: 200px;
+        width: 150px;
+    }
+
+    .corner-lines::before {
+        width: 100px;
+        top: -5px;
+        right: -10px;
+    }
+
+    .corner-lines::after {
+        height: 50px;
+        top: -10px;
+        right: -5px;
+    }
+}
