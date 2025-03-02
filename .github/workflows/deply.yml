@@ -67,7 +67,7 @@ jobs:
           cp example.env .env
 
       - name: Build Vite Project
-        run: ${{ steps.detect-package-manager.outputs.runner }} 
+        run: ${{ steps.detect-package-manager.outputs.runner }} vite build
       
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
